@@ -27,7 +27,7 @@ public class DeliveryController {
 	
 	private ModelMap modelMap = new ModelMap();
 
-	/*********************ë‚©í’ˆí˜„í™© ì¡°íšŒ 2020-08-23 ê¹€íƒœìœ¤***********************/
+	/*********************³³Ç°ÇöÈ² Á¶È¸ 2020-08-23 ±èÅÂÀ±***********************/
 	@RequestMapping("/searchDeliveryInfoList")
 	public ModelMap searchDeliveryInfoList(HttpServletRequest request, HttpServletResponse response) {
 
@@ -37,7 +37,7 @@ public class DeliveryController {
 
 			modelMap.put("gridRowJson", deliveryInfoList);
 			modelMap.put("errorCode", 0);
-			modelMap.put("errorMsg", "ì„±ê³µ");
+			modelMap.put("errorMsg", "¼º°ø");
 
 		} catch (Exception e2) {
 			e2.printStackTrace();
@@ -64,7 +64,7 @@ public class DeliveryController {
 //
 //			modelMap.put("result", resultMap);
 			modelMap.put("errorCode", 1);
-			modelMap.put("errorMsg", "ì„±ê³µ");
+			modelMap.put("errorMsg", "¼º°ø");
 
 		} catch (Exception e2) {
 			e2.printStackTrace();
@@ -76,7 +76,7 @@ public class DeliveryController {
 		return modelMap;
 	}
 
-	/*********************ë‚©í’ˆê°€ëŠ¥ìˆ˜ì£¼ì¡°íšŒ ì¡°íšŒ 2020-08-23 ê¹€íƒœìœ¤***********************/
+	/*********************³³Ç°°¡´É¼öÁÖÁ¶È¸ Á¶È¸ 2020-08-23 ±èÅÂÀ±***********************/
 	@RequestMapping("/searchDeliverableContractList")
 	public ModelMap searchDeliverableContractList(@RequestParam String startDate, @RequestParam String endDate,@RequestParam String searchCondition, @RequestParam String customerCode) {
 
@@ -98,7 +98,7 @@ public class DeliveryController {
 
 			modelMap.put("gridRowJson", deliverableContractList);
 			modelMap.put("errorCode", 0);
-			modelMap.put("errorMsg", "ì„±ê³µ");
+			modelMap.put("errorMsg", "¼º°ø");
 
 		} catch (Exception e2) {
 			e2.printStackTrace();
