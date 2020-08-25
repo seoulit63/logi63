@@ -24,7 +24,7 @@ function Layout(props) {
   var classes = useStyles();
 
   // global
-  var layoutState = useLayoutState();
+  var layoutState = useLayoutState();  
 
   return (
     <div className={classes.root}>
@@ -157,6 +157,11 @@ function Layout(props) {
             <Route
               path="/app/logi/purchase/orderRegister"
               component={logistic.OrderRegister}
+            />
+            {/* 납품관리 */}
+            <Route
+              path="/app/logi/sales/deliveryInfo"
+              component={logistic.Delivery}
             />
             {/**발주 및 재고처리 */}
             <Route
