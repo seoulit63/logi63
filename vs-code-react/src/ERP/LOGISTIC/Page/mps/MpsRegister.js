@@ -273,7 +273,7 @@ const radioOnClick =(e) =>{
     console.log("라디오에 찍힌 값은 무엇일까>!>!?!?!?!?",e.currentTarget.value);
     setRadioCheck(e.currentTarget.value);
     if(e.currentTarget.value==="contractDetail"){
-        console.log("수주상세라디오 접근@@@@@@@@");
+        console.log("수주상세라디오 접근@@@@@@@@");    
     }else{
         console.log("판매계획라디오 접근@@@@@@@@");
     }
@@ -281,7 +281,7 @@ const radioOnClick =(e) =>{
 const dialogRadioOnClick =(e) =>{
     console.log("다얄로그 라디오에 찍힌 값은 무엇일까>!>!?!?!?!?",e.currentTarget.value);
     setDradioCheck(e.currentTarget.value);
-};
+};    
 
   return (
     <>
