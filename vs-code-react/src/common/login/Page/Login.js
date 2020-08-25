@@ -106,7 +106,7 @@ const Login = ({ handleLogin, status, errorMsg, isLogin, history ,searchCode , c
     <Grid container className={classes.container}>
       <div className={classes.logotypeContainer}>
         <img src={logo} alt="logo" className={classes.logotypeImage} />
-        <Typography className={classes.logotypeText}>62th ERP</Typography>
+        <Typography className={classes.logotypeText}>63th ERP</Typography>
       </div>
       <div className={classes.formContainer}>
         <div className={classes.form}>
